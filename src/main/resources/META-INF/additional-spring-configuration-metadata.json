@@ -1,0 +1,47 @@
+{"properties": [
+  {
+    "name": "app.rocksdb.total_mem_tables",
+    "type": "java.lang.String",
+    "description": "A description for 'app.rocksdb.total_mem_tables'"
+  },
+  {
+    "name": "app.rocksdb.total.memtables",
+    "type": "java.lang.String",
+    "description": "A description for 'app.rocksdb.total.memtables'"
+  },
+  {
+    "name": "app.rocksdb.namespace.write_buffer_size",
+    "type": "java.lang.String",
+    "description": "A description for 'app.rocksdb.namespace.write_buffer_size'"
+  },
+  {
+    "name": "app.rocksdb.namespace.max_write_buffer_number",
+    "type": "java.lang.String",
+    "description": "A description for 'app.rocksdb.namespace.max_write_buffer_number'"
+  },
+  {
+    "name": "app.rocksdb.db_write_buffer_size",
+    "type": "java.lang.String",
+    "description": "A description for 'app.rocksdb.db_write_buffer_size'"
+  },
+  {
+    "name": "app.rocksdb.cache_size",
+    "type": "java.lang.String",
+    "description": "A description for 'app.rocksdb.cache_size'"
+  },
+  {
+    "name": "app.rocksdb.block_size",
+    "type": "java.lang.String",
+    "description": "A description for 'app.rocksdb.block_size'"
+  },
+  {
+    "name": "app.rocksdb.max_write_buffer_size",
+    "type": "java.lang.String",
+    "description": "A description for 'app.rocksdb.max_write_buffer_size'"
+  },
+  {
+    "name": "app.rocksdb.block_cache_size",
+    "type": "java.lang.String",
+    "description": "A description for 'app.rocksdb.block_cache_size'"
+  }
+]}
