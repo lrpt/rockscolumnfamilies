@@ -199,10 +199,11 @@ public class RocksDatabase {
 		validateIfHasKeys(tableObject, table);
 
 		byte[] keys = TableEncoderDecoder.getKeysFromTableObject(tableObject, table);
-
 		try {
 			db.delete(getColumnFamilyHandle(table.getName()), keys);
-
+			db.dropColumnFamily(getColumnFamilyHandle(table.getName()));
+			columnFamilyHandleList.remove(getColumnFamilyHandle(table.getName()));
+			tables.remove(table.getName());
 			return true;
 		} catch (RocksDBException e) {
 			throw new ApplicationException("Error deleting object", e);
